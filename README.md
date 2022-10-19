@@ -30,8 +30,19 @@ Output :
      Loaded: loaded (/lib/systemd/system/mosquitto.service; enabled; vendor preset: enabled)
      Active: active (running) since Wed 2022-10-19 11:52:02 IST; 1s ago
 ```
+## Step 4 : Connect to MQTT Broker using MQTTX application
 
-
+Download MQTTX appImage : https://www.emqx.com/en/downloads/MQTTX/v1.8.3/MQTTX-1.8.3.AppImage
+#### Open MQTTX and enter new connection details as below : 
+```
+Name : local_mqtt_broker 
+Client ID : random_client_id
+host : mqtt://
+broker : [YOUR_NETWWORK_IP_ADDRESS:EXAMPLE:192.168.1.4]
+Port : 1883
+Username and Password are empty
+SSL/TLS is turned off
+```
 
 ![https://hjlabs.in](https://hjlabs.in/wp-content/uploads/2022/05/rainbow-text-1.png "Image Title")
 
