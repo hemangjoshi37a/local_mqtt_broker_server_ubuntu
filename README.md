@@ -20,11 +20,9 @@ listener 1883
 
 ## Step 3 : Restart mosquitto
 
-Command : `sudo systemctl restart mosquitto`
+Restart mosquitto : `sudo systemctl restart mosquitto`
 
-Check if the service is running
-
-Command : `sudo systemctl status mosquitto`
+Check if the service is running : `sudo systemctl status mosquitto`
 
 Output :
 ```
