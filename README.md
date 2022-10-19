@@ -1,5 +1,7 @@
 # How to create simple mqtt broker server in Ubuntu
 
+![mosquitto-text-side-28](https://user-images.githubusercontent.com/12392345/196620316-09c15014-a469-48ee-9922-280abdfbf2ad.png)
+
 ## Step 1 : Install Mosquitto
 
 Command : `sudo apt-get install mosquitto mosquitto-clients`
@@ -102,3 +104,4 @@ Buy us a coffee for $5 ?
 ## We sell Gigs on Fiverr : 
 - [code android and ios app for you using flutter firebase software stack](https://business.fiverr.com/share/3v14pr)
 - [code custom algotrading software for zerodha or angel broking](https://business.fiverr.com/share/kzkvEy)
+
